@@ -16,7 +16,7 @@ export default function ServicesPage() {
 		<div>
 			<div>
 				<a href='/'>
-					<Button variant='outline' className='flex items-center gap-2'>
+					<Button variant='outline' className='flex items-center gap-2 m-4'>
 						<ArrowLeft className='h-4 w-4' />
 						Back to Home
 					</Button>

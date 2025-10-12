@@ -23,28 +23,6 @@ import {Input} from '@/components/ui/input';
 import {Textarea} from '@/components/ui/textarea';
 import {Button} from '@/components/ui/button';
 
-// import {ImageWithFallback} from './figma/ImageWithFallback';
-// import {Button} from './ui/button';
-// import {Card, CardContent, CardHeader, CardTitle} from './ui/card';
-// import {Input} from './ui/input';
-// import {Textarea} from './ui/textarea';
-// import {Label} from './ui/label';
-// import {Separator} from './ui/separator';
-// import {
-// 	Heart,
-// 	Phone,
-// 	Mail,
-// 	MapPin,
-// 	Clock,
-// 	MessageCircle,
-// 	Calendar,
-// 	ArrowLeft,
-// } from 'lucide-react';
-
-// interface ContactPageProps {
-// 	onBack: () => void;
-// }
-
 export default function ContactPage() {
 	return (
 		<div className='min-h-screen bg-background'>
@@ -56,11 +34,7 @@ export default function ContactPage() {
 						<span className='text-xl text-primary'>Hailee's Doula Care</span>
 					</div>
 					<a href='/'>
-						<Button
-							variant='outline'
-							// onClick={onBack}
-							className='flex items-center gap-2'
-						>
+						<Button variant='outline' className='flex items-center gap-2 mr-4'>
 							<ArrowLeft className='h-4 w-4' />
 							Back to Home
 						</Button>

@@ -1,21 +1,7 @@
-import {
-	Card,
-	CardContent,
-	CardHeader,
-	CardTitle,
-} from '../../components/ui/card';
+import {Card, CardContent} from '../../components/ui/card';
 
 import {Button} from '@/components/ui/button';
-import {
-	Heart,
-	ArrowLeft,
-	// Award,
-	BookOpen,
-	Users,
-	// Clock,
-	// Star,
-	Flower,
-} from 'lucide-react';
+import {Heart, ArrowLeft, BookOpen, Users, Flower} from 'lucide-react';
 import Image from 'next/image';
 import image from '../../public/what is a doula.webp';
 
@@ -24,10 +10,6 @@ export default function AboutPage() {
 		<div>
 			{/* Header Section */}
 			<div className='max-w-6xl mx-auto px-4 py-4 flex justify-between items-center'>
-				<div className='flex items-center space-x-2'>
-					<Heart className='h-6 w-6 text-primary' />
-					<span className='text-xl text-primary'>Hailee's Doula Care</span>
-				</div>
 				<a href='/'>
 					<Button variant='outline' className='flex items-center gap-2'>
 						<ArrowLeft className='h-4 w-4' />
