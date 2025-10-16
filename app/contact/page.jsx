@@ -26,24 +26,8 @@ import {Button} from '@/components/ui/button';
 export default function ContactPage() {
 	return (
 		<div className='min-h-screen bg-background'>
-			{/* Navigation */}
-			<nav className='fixed top-0 w-full bg-white/95 backdrop-blur-sm border-b border-border z-50'>
-				<div className='max-w-6xl mx-auto px-4 py-4 flex justify-between items-center'>
-					<div className='flex items-center space-x-2'>
-						<Heart className='h-6 w-6 text-primary' />
-						<span className='text-xl text-primary'>Hailee's Doula Care</span>
-					</div>
-					<a href='/'>
-						<Button variant='outline' className='flex items-center gap-2 mr-4'>
-							<ArrowLeft className='h-4 w-4' />
-							Back to Home
-						</Button>
-					</a>
-				</div>
-			</nav>
-
 			{/* Header Section */}
-			<section className='pt-24 pb-12 px-4 bg-secondary/30'>
+			<section className=' pb-6 bg-secondary/30'>
 				<div className='max-w-6xl mx-auto text-center'>
 					<h1 className='text-4xl lg:text-5xl text-primary mb-4'>
 						Get in Touch
@@ -57,7 +41,7 @@ export default function ContactPage() {
 			</section>
 
 			{/* Contact Information & Form Section */}
-			<section className='py-16 px-4'>
+			<section className='px-4'>
 				<div className='max-w-6xl mx-auto'>
 					<div className='grid lg:grid-cols-2 gap-12'>
 						{/* Contact Information */}
@@ -119,13 +103,13 @@ export default function ContactPage() {
 										<div className='flex justify-between'>
 											<span>Monday - Friday</span>
 											<span className='text-muted-foreground'>
-												9:00 AM - 6:00 PM
+												6:00 AM - 3:00 PM
 											</span>
 										</div>
 										<div className='flex justify-between'>
 											<span>Saturday</span>
 											<span className='text-muted-foreground'>
-												10:00 AM - 4:00 PM
+												8:00 AM - 2:00 PM
 											</span>
 										</div>
 										<div className='flex justify-between'>
@@ -143,7 +127,7 @@ export default function ContactPage() {
 							</Card>
 
 							{/* Quick Actions */}
-							<div className='space-y-4'>
+							{/* <div className='space-y-4'>
 								<h3 className='text-lg text-primary'>Quick Actions</h3>
 								<div className='space-y-2'>
 									<Button variant='outline' className='w-full justify-start'>
@@ -155,7 +139,7 @@ export default function ContactPage() {
 										Send Quick Message
 									</Button>
 								</div>
-							</div>
+							</div> */}
 						</div>
 
 						{/* Contact Form */}
@@ -250,7 +234,7 @@ export default function ContactPage() {
 			</section>
 
 			{/* FAQ Section */}
-			<section className='py-16 px-4 bg-secondary/30'>
+			<section className='px-4 bg-secondary/30'>
 				<div className='max-w-4xl mx-auto'>
 					<h2 className='text-3xl text-primary text-center mb-12'>
 						Frequently Asked Questions
@@ -307,23 +291,6 @@ export default function ContactPage() {
 					</div>
 				</div>
 			</section>
-
-			{/* Footer */}
-			<footer className='py-8 px-4 bg-primary text-primary-foreground'>
-				<div className='max-w-6xl mx-auto'>
-					<Separator className='mb-6 bg-primary-foreground/20' />
-					<div className='flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0'>
-						<div className='flex items-center space-x-2'>
-							<Heart className='h-5 w-5' />
-							<span>Hailee's Doula Care</span>
-						</div>
-						<p className='text-sm text-primary-foreground/80'>
-							© 2025 Hailee's Doula Care. Supporting families with love and
-							care.
-						</p>
-					</div>
-				</div>
-			</footer>
 		</div>
 	);
 }

@@ -16,14 +16,15 @@ export default function ServicesPage() {
 		<div>
 			<div>
 				<a href='/'>
-					<Button variant='outline' className='flex items-center gap-2 m-4'>
+					{/* variant='outline' */}
+					<Button className='flex items-center gap-2 m-4'>
 						<ArrowLeft className='h-4 w-4' />
 						Back to Home
 					</Button>
 				</a>
 			</div>
 			{/* Services Section */}
-			<section id='services' className='py-16 px-4 bg-secondary/30'>
+			<section id='services' className='px-4 bg-secondary/30'>
 				<div className='max-w-6xl mx-auto'>
 					<div className='text-center mb-12'>
 						<h2 className='text-3xl text-primary mb-4'>

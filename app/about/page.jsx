@@ -9,20 +9,21 @@ export default function AboutPage() {
 	return (
 		<div>
 			{/* Header Section */}
-			<div className='max-w-6xl mx-auto px-4 py-4 flex justify-between items-center'>
+			{/* <div className='max-w-6xl mx-auto px-4 py-4 flex justify-between items-center'>
 				<a href='/'>
 					<Button variant='outline' className='flex items-center gap-2'>
 						<ArrowLeft className='h-4 w-4' />
 						Back to Home
 					</Button>
 				</a>
-			</div>
-			<section className='pt-4 px-4 bg-secondary/30'>
+			</div> */}
+			{/* className='pt-4 px-4 bg-secondary/30' */}
+			<section>
 				<div className='max-w-6xl mx-auto text-center'>
-					<h1 className='text-3xl lg:text-4xl text-primary mb-2'>
+					<h1 className='pt-4 text-3xl lg:text-4xl text-primary mb-2'>
 						About Hailee
 					</h1>
-					<p className='text-lg text-muted-foreground max-w-2xl mx-auto'>
+					<p className='text-lg  text-muted-foreground max-w-2xl mx-auto'>
 						Learn more about my journey as a doula, my philosophy on birth
 						support, and how I can help make your birth experience empowering
 						and beautiful.
@@ -30,7 +31,7 @@ export default function AboutPage() {
 				</div>
 			</section>
 			{/* Personal Story Section */}
-			<section className='py-16 px-4'>
+			<section className='py-8 px-4'>
 				<div className='max-w-6xl mx-auto'>
 					<div className='grid lg:grid-cols-2 gap-4 items-center'>
 						<div className='relative'>
@@ -70,7 +71,7 @@ export default function AboutPage() {
 			{/* Philosophy Section */}
 			<section className='px-4 bg-secondary/30'>
 				<div className='max-w-6xl mx-auto'>
-					<div className='text-center mb-12'>
+					<div className='text-center mb-4'>
 						<h2 className='text-3xl text-primary mb-4'>My Birth Philosophy</h2>
 						<p className='text-lg text-muted-foreground max-w-2xl mx-auto'>
 							Every birth is unique, and my approach is centered around your
@@ -126,7 +127,7 @@ export default function AboutPage() {
 				</div>
 			</section>
 			{/* Call to Action */}
-			<section className='py-16 px-4 bg-secondary/30'>
+			<section className='py-8 px-4 bg-secondary/30'>
 				<div className='max-w-4xl mx-auto text-center'>
 					<h2 className='text-3xl text-primary mb-4'>
 						Ready to Work Together?
@@ -142,7 +143,12 @@ export default function AboutPage() {
 							</Button>
 						</a>
 						<a href='/services'>
-							<Button variant='outline' size='lg' as='span'>
+							<Button
+								className='bg-primary hover:bg-primary/90'
+								// variant='outline'
+								size='lg'
+								// as='span'
+							>
 								View My Services
 							</Button>
 						</a>

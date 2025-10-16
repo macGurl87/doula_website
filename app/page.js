@@ -10,10 +10,10 @@ export default function Home() {
 			{/* Hero Section */}
 			<section className='pt-5 pb-16 px-4'>
 				<div className='max-w-6xl mx-auto'>
-					<div className='grid lg:grid-cols-2 gap-12 items-center'>
+					<div className='grid lg:grid-cols-2 gap-8 items-center'>
 						<div className='space-y-6'>
-							<h1 className='text-4xl lg:text-5xl text-primary'>
-								Your Journey to Motherhood Deserves Care
+							<h1 className='text-3xl lg:text-4xl text-primary'>
+								Compassionate Birth Support
 							</h1>
 							{/* Compassionate Birth Support for Your Journey */}
 							<p className='text-lg text-muted-foreground'>
@@ -22,25 +22,28 @@ export default function Home() {
 								confidence and peace of mind that comes with having a dedicated
 								advocate by your side.
 							</p>
-							<div className='flex flex-col sm:flex-row gap-4'>
-								<div>
-									<a href='/contact'>
+							<div className='flex flex-col sm:flex-row gap-4 items-center justify-center'>
+								<div className='w-full sm:w-auto'>
+									<a href='/contact' className='w-full flex justify-center'>
 										<Button
 											size='lg'
-											className='bg-primary hover:bg-primary/90'
+											className='bg-primary hover:bg-primary/90 w-full sm:w-auto'
 										>
 											Schedule Free Consultation
 										</Button>
 									</a>
 								</div>
-								<a href='/about'>
-									<Button
-										// variant='outline'
-										size='lg'
-									>
-										Learn More About Doula Care
-									</Button>
-								</a>
+								<div className='w-full sm:w-auto'>
+									<a href='/about' className='w-full flex justify-center'>
+										<Button
+											// variant='outline'
+											size='lg'
+											className='w-full sm:w-auto'
+										>
+											Learn More About Doula Care
+										</Button>
+									</a>
+								</div>
 							</div>
 						</div>
 						<div className='relative'>

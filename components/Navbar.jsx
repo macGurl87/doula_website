@@ -21,7 +21,7 @@ export default function Navbar() {
 					<div className='md:hidden'>
 						<button
 							onClick={() => setMenuOpen(!menuOpen)}
-							className='p-2 rounded focus:outline-none focus:ring-2 focus:ring-primary'
+							className='pt-2 ml-32 md:ml-44 lg:ml-56 rounded focus:outline-none focus:ring-2 focus:ring-primary'
 							aria-label='Toggle menu'
 						>
 							<Menu className='h-6 w-6 text-primary' />
